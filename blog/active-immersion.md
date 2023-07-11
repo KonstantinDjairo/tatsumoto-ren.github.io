@@ -1,5 +1,5 @@
 ---
-title: Active immersion
+title: Imersão ativa
 date: 1679001190
 tags: ['guide']
 ---

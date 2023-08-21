@@ -58,6 +58,12 @@ Kanji characters with Koohii stories.
 
 ### Grammar
 
+> Main article: [Learning grammar](learning-grammar.html)
+
+* [All About Particles](https://comm.cx/_matrix/media/r0/download/comm.cx/ac729abd7e7bd8c7192faa7956e4b8f951e12399)
+  ([mirror](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/book/21241576/67ba13)).
+  A nicely organized book simply described by many as "godsend".
+  Khatz used this book a long time ago when he learned Japanese.
 * [Tae Kim's grammar guide](http://www.guidetojapanese.org/learn/grammar).
   A guide to Japanese grammar.
   It breaks down Japanese in a logical and straightforward way
@@ -68,6 +74,10 @@ Kanji characters with Koohii stories.
   Another online DoJG reference.
 * [DoJG Anki deck](https://disk.yandex.com/d/ojvcR9IBLi9pAQ).
   An Anki deck that contains example sentences from DoJG.
+* [Sakubi](https://sakubi.neocities.org/).
+  A rather short guide written for immersion learners.
+* [Ixrec's Guide to Japanese](https://ixrec.neocities.org/)
+  ([archive](https://web.archive.org/web/20170922192958/http://amaterasu.tindabox.net/guide/)).
 
 ### Grammar in Japanese
 
@@ -192,30 +202,30 @@ Before using the torrent sites, [choose a torrent client](#torrent-clients).
 ### Streaming
 
 * [Animelon](https://animelon.com/).
-Watch anime with Japanese subtitles.
+  Watch anime with Japanese subtitles.
 * [Anjsub](https://anjsub.com/).
-A site similar to Animelon.
+  A site similar to Animelon.
 * [B9GOOD](http://b9good.com/).
-Watch raw anime online.
+  Watch raw anime online.
 * [ZORO.to](https://zoro.to/).
-Another anime streaming site.
-You can switch between audio and subtitle tracks in multiple languages.
+  Another anime streaming site.
+  You can switch between audio and subtitle tracks in multiple languages.
 * [AQStream](https://aqstream.com/).
-Watch Japanese TV.
+  Watch Japanese TV.
 * [BiliBili](https://space.bilibili.com/60958832/#/video?tid=0&page=1&keyword=&order=pubdate).
-A Chinese website with a bunch of TV shows.
+  A Chinese website with a bunch of TV shows.
 * [jp.m3u](https://raw.githubusercontent.com/gadabao/iptv-org-iptv/gh-pages/countries/jp.m3u).
-A `m3u` playlist with Japanese `IPTV` channels which you can open in [mpv](#mpv).
-You can switch channels in mpv by pressing `<` and `>`.
+  A `m3u` playlist with Japanese `IPTV` channels which you can open in [mpv](#mpv).
+  You can switch channels in mpv by pressing `<` and `>`.
 * [News24.jp](https://www.news24.jp/).
-Lets you watch a live stream with news,
-but you have to allow to run an obscene amount of nonfree JavaScript code.
-To avoid running nonfree JS,
-[watch the stream in `mpv`](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/news24.desktop)
-by creating a desktop shortcut.
+  Lets you watch a live stream with news,
+  but you have to allow to run an obscene amount of nonfree JavaScript code.
+  To avoid running nonfree JS,
+  [watch the stream in `mpv`](https://github.com/tatsumoto-ren/dotfiles/blob/main/.local/share/applications/news24.desktop)
+  by creating a desktop shortcut.
 * [keylabo](https://www.keylabo.com/watch-tv-online-for-free/).
-Similarly to News24, lists a number of channels you can watch online.
-Unfortunately, not all of them can be opened in mpv.
+  Similarly to News24, lists a number of channels you can watch online.
+  Unfortunately, not all of them can be opened in mpv.
 
 ### YouTube with subtitles
 
@@ -306,7 +316,7 @@ A shared folder with movies and other content with Japanese dubs.
   This website has scans of a lot of manga,
   as well as shounen jump,
   young jump and other manga magazines.
-* [Itazuraneko 漫画](https://itazuraneko.neocities.org/library/manga.html).
+* [Itazuraneko 漫画](https://djtguide.github.io/library/manga.html).
 * [shinmoemanga](https://shinmoemanga.neocities.org/).
 * [Manga Raw](https://manga1000.com/).
   Read manga online.
@@ -361,17 +371,18 @@ A shared folder with movies and other content with Japanese dubs.
 * [アルファポリス](https://www.alphapolis.co.jp/).
   A site where you can read novels, manga, etc., for free.
   You can disable JavaScript but must allow cookies for books' pages to load.
-* [Japanese Learner’s Anthology v2](https://nyaa.iss.ink/view/1548943).
-  A torrent with Japanese 30,000 ebooks.
+* [Japanese Learner’s Anthology v2](https://nyaa.iss.ink/view/1548943) or
+  [Magnet](magnet:?xt=urn:btih:b2ab5fbffdf5d11477c6cd9c6738bfadecc67f43&dn=%5BPeepoHappyBooks%5D%20Japanese%20Learner%E2%80%99s%20Anthology%20v2&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce).
+  A torrent with 30,000 Japanese ebooks.
 
 ### Audiobooks
 
 * Japanese Audiobook Collection
-  * [Part 1](https://nyaa.si/view/1616763)
-  * [Part 2](https://nyaa.si/view/1616764)
-  * [Part 3](https://nyaa.si/view/1616765)
-  * [Part 4](https://nyaa.si/view/1616766)
-* [Audiobooks on Itazuraneko](https://itazuraneko.neocities.org/library/onsei.html)
+  * [Part 1](https://nyaa.si/view/1616763) or [Magnet](magnet:?xt=urn:btih:4ee70a18d55d3745bf45d3c8889ec3d8f7319fda&dn=Japanese%20Audiobook%20Collection%20%28Part%201%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+  * [Part 2](https://nyaa.si/view/1616764) or [Magnet](magnet:?xt=urn:btih:6088af63cc4dbe448f77155264f2fdd025674160&dn=Japanese%20Audiobook%20Collection%20%28Part%202%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+  * [Part 3](https://nyaa.si/view/1616765) or [Magnet](magnet:?xt=urn:btih:3bf6c62e02d56268b5d25f9608700248872d2795&dn=Japanese%20Audiobook%20Collection%20%28Part%203%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+  * [Part 4](https://nyaa.si/view/1616766) or [Magnet](magnet:?xt=urn:btih:fba92e76cb70c41e666b49cd255200a1bc57de8b&dn=Japanese%20Audiobook%20Collection%20%28Part%204%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+* [Audiobooks on Itazuraneko](https://djtguide.github.io/library/onsei.html)
 
 ### Podcasts
 
@@ -404,8 +415,8 @@ You may need a Japanese IP address for some of these.
 * [kitsunekko.net](https://kitsunekko.net/dirlist.php?dir=subtitles/japanese/&sort=date&order=desc)
 * [kitsunekko mirror](https://mega.nz/folder/jIxCCAjK#AYd_T5HsTrJRsaWwTtspjQ)
 * [kitsunekko archive](https://mega.nz/file/iMl2xIgQ#1ROIhOVXGQ2WxqO02QqOvhlRlLRY_FlmNKbwP_DzVA8)
-* [Xavier's Retimed JP Sub Pack](https://nyaa.iss.one/view/1044354)
-* [日本語字幕](https://itazuraneko.neocities.org/library/sub.html)
+* [Xavier's Retimed JP Sub Pack](https://nyaa.iss.one/view/1044354) or [Magnet](magnet:?xt=urn:btih:c7e8c1df52b306b2cfc99cb4ded8ad8e234b7447&dn=Xavier%27s%20Retimed%20JP%20Sub%20Pack%20v01%20%28425%20Titles%29&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
+* [日本語字幕](https://djtguide.github.io/library/sub.html)
 * [Jpsubbers drama subtitles](http://jpsubbers.xyz/Japanese-Subtitles/%40Mains/)
 * [Jpsubbers drama subtitles &mdash; archive](https://mega.nz/file/1jxFWIQS#zBcqYf0tI6us1mYrJvFfPBIsCrSVxqyfrvUpYXyTZHc)
 * [動漫花園](https://share.dmhy.org/)
@@ -438,6 +449,8 @@ You may need a Japanese IP address for some of these.
 * [アームド・レモン](https://calligra-tei.oops.jp/ex-lemon.html)
   A font that imitates handwriting.
   The font covers all `JIS第２水準` kanji characters.
+* [kanji-restoration](https://github.com/epistularum/kanji-restoration).
+  A custom font that only displays `旧字体`.
 * [AJT archive](https://disk.yandex.com/d/cj0hetiqGjhDiA).
   The fonts I use.
   Contains `Yu Mincho`, semi-cursive fonts and stroke order fonts.
@@ -698,12 +711,14 @@ regarding using an Android device.
 ### General
 
 * [Mozc for Android](https://f-droid.org/en/packages/org.mozc.android.inputmethod.japanese/).
-A Japanese Input Method Editor (IME) for typing Japanese text on a phone.
+  A Japanese Input Method Editor (IME) for typing Japanese text on a phone.
 * [AnkiDroid](https://f-droid.org/en/packages/com.ichi2.anki/).
-A free/libre flashcard application, Android version.
+  A free/libre flashcard application, Android version.
 * [AnkiConnect for Android](https://github.com/KamWithK/AnkiconnectAndroid).
-A program that helps create Anki cards on Android.
-Probably not needed because AnkiDroid has AnkiDroid API.
+  A program that helps create Anki cards on Android.
+  Probably not needed because AnkiDroid has AnkiDroid API.
+* [SimplyTranslate Mobile](https://f-droid.org/packages/com.simplytranslate_mobile/).
+  An alternative front-end to Google Translate.
 
 ### Manga readers
 
@@ -749,7 +764,7 @@ All available players are [listed on F-Droid catalog](https://search.f-droid.org
 * [Vanilla Music](https://f-droid.org/packages/ch.blinkenlights.android.vanilla)
 * [Pulse Music](https://f-droid.org/packages/com.hardcodecoder.pulsemusic/)
 * [AntennaPod](https://f-droid.org/packages/de.danoeh.antennapod/).
-A podcast player for Android.
+  A podcast player for Android.
 
 ## Dictionaries
 
@@ -841,7 +856,8 @@ but to be able to understand it the first time.
 Don't use translators for anything serious.
 You've been warned.
 
-* [SimplyTranslate](https://simplytranslate.org/)
+* [SimplyTranslate](https://simplytranslate.vern.cc/)
+  and [SimplyTranslate Mobile](https://f-droid.org/packages/com.simplytranslate_mobile/) for Android.
 * [LibreTranslate](https://libretranslate.com/)
 * [Lingva Translate](https://github.com/thedaviddelta/lingva-translate).
   Alternative front-end for Google Translate .
@@ -912,13 +928,13 @@ Anti-features:
 * Advertises unnecessary paid products.
 * Tries to harvest Email addresses.
 
-### [Itazuraneko](https://itazuraneko.neocities.org/)
+### [Itazuraneko](https://djtguide.github.io/)
 
 A collection of guides for those interested in learning Japanese.
 
 Anti-features:
 
-* Includes links to non-free software.
+* Includes links to non-free software, non-free games.
 * Includes links to [Discord](https://spyware.neocities.org/articles/discord.html) servers.
   Discord is known for spying on and politically suppressing its users.
 * Contains outdated information.
@@ -940,7 +956,7 @@ Notable articles:
   A list of Matrix rooms in Japanese.
   Chat with natives on various topics of interest.
 * [Cornucopia of resources](https://djtguide.neocities.org/cor) from the old DJT site.
-* [Japanese Mega Learning Pack](https://nyaa.si/view/1372367)
+* [Japanese Mega Learning Pack](https://nyaa.si/view/1372367) or [Magnet](magnet:?xt=urn:btih:8a02cdf9cbfdec95e0a61d5381d80f46aea911f8&dn=Japanese%20Mega%20Learning%20Pack%20-%20Remake&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce)
 * [Japanese bookmarks](https://pachimon.github.io/tools/JapBookmarks.html) by pachimon
 * [Mia's Japanese quickstart guide](https://web.archive.org/web/20201202234519/https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide/).
   Her guide is a little outdated but can still be useful.

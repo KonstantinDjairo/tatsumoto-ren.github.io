@@ -265,7 +265,7 @@ header :is(label, a:not(.logo)):is(:hover, :active, :focus) {
 /* body */
 
 #divbodyholder {
-    word-wrap: break-word;
+    overflow-wrap: break-word;
     margin: var(--gap-large) 0 var(--gap-large);
 }
 
@@ -355,19 +355,6 @@ article a.anchor {
     padding-right: 4px;
     margin-left: -20px;
     line-height: 1;
-}
-
-details {
-    border-radius: 0.5rem;
-}
-
-summary {
-    color: #1f56aa;
-    cursor: pointer;
-}
-
-summary+* {
-    margin-top: 0.5rem;
 }
 
 blockquote {
@@ -938,7 +925,7 @@ a.md-button.element:is(:hover, :active, :focus) {
 }
 
 a.md-button.element::before {
-    background-image: url("https://wikiless.org/media/wikipedia/commons/c/cb/Element_%28software%29_logo.svg");
+    background-image: url("data:image/svg+xml,%3Csvg width='54' height='54' viewBox='0 0 54 54' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M19.4414 3.24C19.4414 1.4506 20.892 0 22.6814 0C34.6108 0 44.2814 9.67065 44.2814 21.6C44.2814 23.3894 42.8308 24.84 41.0414 24.84C39.252 24.84 37.8014 23.3894 37.8014 21.6C37.8014 13.2494 31.032 6.48 22.6814 6.48C20.892 6.48 19.4414 5.0294 19.4414 3.24Z' fill='%230DBD8B'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M34.5586 50.76C34.5586 52.5494 33.108 54 31.3186 54C19.3893 54 9.71861 44.3294 9.71861 32.4C9.71861 30.6106 11.1692 29.16 12.9586 29.16C14.748 29.16 16.1986 30.6106 16.1986 32.4C16.1986 40.7505 22.9681 47.52 31.3186 47.52C33.108 47.52 34.5586 48.9706 34.5586 50.76Z' fill='%230DBD8B'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3.24 34.5601C1.4506 34.5601 -6.34076e-08 33.1095 -1.41625e-07 31.3201C-6.63074e-07 19.3907 9.67065 9.72007 21.6 9.72007C23.3894 9.72007 24.84 11.1707 24.84 12.9601C24.84 14.7495 23.3894 16.2001 21.6 16.2001C13.2495 16.2001 6.48 22.9695 6.48 31.3201C6.48 33.1095 5.0294 34.5601 3.24 34.5601Z' fill='%230DBD8B'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M50.76 19.4399C52.5494 19.4399 54 20.8905 54 22.6799C54 34.6093 44.3294 44.2799 32.4 44.2799C30.6106 44.2799 29.16 42.8293 29.16 41.0399C29.16 39.2505 30.6106 37.7999 32.4 37.7999C40.7505 37.7999 47.52 31.0305 47.52 22.6799C47.52 20.8905 48.9706 19.4399 50.76 19.4399Z' fill='%230DBD8B'/%3E%3C/svg%3E%0A");
     filter: grayscale(100%) brightness(2);
 }
 
@@ -1235,25 +1222,102 @@ article img[float=left] {
     float: left;
 }
 
-/* Notes in articles */
+/* Notes in articles and Magnet links */
 
-article .article-note {
+article .article-note,
+article a[href^="magnet:?"] {
     --paint-with: green;
 
-    color: var(--paint-with);
+    color: var(--paint-with, black);
     display: inline-flex;
     flex-flow: row nowrap;
     align-items: baseline;
     font-weight: bold;
+    gap: 3px;
 }
 
-article .article-note::before {
+article .article-note::before,
+article a[href^="magnet:?"]::before {
     content: "";
-    margin-right: 4px;
     background-color: var(--paint-with);
     mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='octicon octicon-info mr-2' viewBox='0 0 16 16' version='1.1' width='16' height='16' aria-hidden='true'%3E%3Cpath d='M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z'%3E%3C/path%3E%3C/svg%3E");
     background-repeat: no-repeat;
     width: 16px;
     aspect-ratio: 1/1;
     align-self: center;
+}
+
+/* Magnet links, Magnet icon */
+
+article a[href^="magnet:?"] {
+    --paint-with: #cb4154;
+    flex-direction: row-reverse;
+}
+
+article a[href^="magnet:?"]:is(:hover, :active, :focus) {
+    filter: hue-rotate(20deg) saturate(140%);
+}
+
+article a[href^="magnet:?"]::before {
+    mask-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg viewBox='0 0 16 16' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath fill='black' d='M11 0h5v4h-5v-4z'%3E%3C/path%3E%3Cpath fill='blac4' d='M11 5v3c0 1.6-1.4 3-3 3s-3-1.4-3-3v-3h-5v3c0 4.4 3.6 8 8 8s8-3.6 8-8v-3h-5z'%3E%3C/path%3E%3Cpath fill='blac4' d='M0 0h5v4h-5v-4z'%3E%3C/path%3E%3C/svg%3E%0A");
+}
+
+/* Details elements */
+
+details {
+    --spacing: 0.5rem;
+    outline: 1px solid #0098d4;
+    border-radius: calc(var(--spacing) / 3);
+    padding: 0 var(--spacing);
+}
+
+details[open] {
+    padding: 0 var(--spacing) var(--spacing);
+}
+
+details summary {
+    background-color: #00b8d415;
+    color: #1f56aa;
+    cursor: pointer;
+    padding: calc(var(--spacing) / 3) var(--spacing);
+    margin: 0 calc(-1 * var(--spacing));
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: calc(var(--spacing) / 1.5);
+    user-select: none;
+}
+
+details summary::before {
+    --tri-size: 0.4rem;
+    --tri-color: currentColor;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: var(--tri-size) solid transparent;
+    border-right: var(--tri-size) solid transparent;
+    border-top: calc(var(--tri-size) * 1.5) solid var(--tri-color);
+    rotate: -90deg;
+    transition: rotate 0.2s;
+}
+
+details[open] summary::before {
+    rotate: 0deg;
+}
+
+details summary::after {
+    content: "(click here)";
+    color: grey;
+    font-size: 70%;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+details summary+* {
+    margin-top: var(--spacing);
+}
+
+details summary>* {
+    display: inline;
 }

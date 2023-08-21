@@ -115,8 +115,8 @@ then paste the path to an extracted folder.
 [gd-tools](https://github.com/Ajatt-Tools/gd-tools)
 is a collection of tools for GoldenDict
 that aim to help in learning foreign languages.
-To install `gd-tools`, download the repository and run `sudo make install`.
-Read the instructions on GitHub for details.
+To install `gd-tools`, follow the [instructions on GitHub](https://github.com/Ajatt-Tools/gd-tools#installation).
+Arch Linux users can install the program [from the AUR](https://aur.archlinux.org/packages/gd-tools-git).
 
 <p align="center"><img class="shadow" alt="Programs" src="img/goldendict-programs.webp"></p>
 <p align="center"><i>Screenshot.</i></p>
@@ -218,6 +218,9 @@ Disabling "Edit" > "Dictionary bar" hides toggleable dictionaries.
 
 A wider translate line is more convenient when editing pasted sentences.
 
+Alternatively, enable "View" > "Search Pane".
+The advantage of this mode is that there's a separate box for search suggestions.
+
 ### Set example sentence
 
 If a dictionary has example sentences, it is possible to send an example to the *translate line*
@@ -230,6 +233,16 @@ To do so, select the sentence, right-click and choose "Send <sentence> to the in
 can cause the program to utilize 100% of the CPU **all the time**.
 This is likely a bug.
 Disable the feature in "Preferences" > "Full-text search".
+
+### Keyboard shortcuts
+
+All the available keyboard shortcuts are listed [here](https://xiaoyifang.github.io/goldendict-ng/ui_shortcuts/).
+It's nice to memorize some of them to make navigation easier.
+
+### Jump between definitions
+
+Pressing <kbd>Alt</kbd>+Up arrow or <kbd>Alt</kbd>+Down arrow
+switches to the previous or next dictionary definition.
 
 ### Remove duplicate display of EPWING headwords
 

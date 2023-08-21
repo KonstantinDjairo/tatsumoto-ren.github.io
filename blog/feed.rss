@@ -5,9 +5,140 @@
 <link>https://tatsumoto-ren.github.io/blog/index.html</link>
 <description>How to use Free Software to learn Japanese, and more.</description>
 <language>en</language>
-<lastBuildDate>Wed, 05 Jul 2023 21:17:49 +0300</lastBuildDate>
-<pubDate>Wed, 05 Jul 2023 21:17:49 +0300</pubDate>
+<lastBuildDate>Tue, 08 Aug 2023 17:09:37 +0300</lastBuildDate>
+<pubDate>Tue, 08 Aug 2023 17:09:37 +0300</pubDate>
 <atom:link href="https://tatsumoto-ren.github.io/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Is it a good idea to read mostly manga in the beginning?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>Immersion is immersion.
+Consuming any native content is almost always the best strategy.
+There are some pitfalls associated with reading manga,
+but they're not too significant.
+Still, I would rather immerse in anime as a beginner,
+with manga taking a secondary role.</p>
+<p>Firstly,
+it's important to note that manga is not voiced, unlike anime.
+Consequently,
+often when reading you may get lost
+because you won't know how to say certain words correctly and with the right pitch accent.
+If you read something incorrectly, you may accidentally create a bad habit.</p>
+<p>Since reading manga is reading immersion,
+it is crucial to balance reading with listening.
+Only through listening we can get exposure to native speech,
+get used to the sounds of the language
+and learn to understand speech without relying on textual cues.</p>
+<p>You may not have access to high resolution scans.
+Reading text on low-resolution images can be frustrating,
+particularly when dealing with small text and complex kanji containing many strokes.</p>
+<p>Lastly,
+setting up a sentence mining workflow for manga
+requires more steps compared to anime.
+You need to learn how to use <abbr title="Optical character recognition">OCR software</abbr>,
+and how to connect it with Japanese dictionaries and Anki,
+which may be tedious for some people.
+OCR software often makes mistakes when recognizing text from images,
+and it can hinder your ability to quickly look up words.
+In contrast,
+when reading books or watching anime with TL subtitles
+you don't have to rely on OCR.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/is-it-a-good-idea-to-read-mostly-manga-in-the-beginning.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/is-it-a-good-idea-to-read-mostly-manga-in-the-beginning.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Mon, 07 Aug 2023 23:56:46 +0300</pubDate>
+</item>
+<item>
+<title>Do I have to use an SRS?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p><a href="whats-immersion.html">Immersion</a> is the cornerstone of <a href="whats-ajatt.html">AJATT</a>,
+with the <a href="spaced-repetition.html">SRS</a> serving as an optional supplement.
+While <a href="setting-up-anki.html">Anki</a>
+or other SRS applications can be useful for helping learn vocabulary faster,
+it is possible to become fluent without using them.
+If using an SRS reduces your motivation or enjoyment,
+it may be in your best interest to forgo using any SRS
+and instead focus on the core of the method.</p>
+<p>To improve learning speed and efficiency,
+it is recommended to incorporate some form of repetition,
+provided <a href="minimum-amount-of-anki.html">you can tolerate it</a>.
+We eventually forget <a href="how-much-reading-is-required-to-counteract-not-srsing.html">everything that we don't review</a>.
+While total, mass immersion can partially counteract the forgetting curve,
+it can't help when trying to memorize more uncommon words.</p>
+<p>In the case of Japanese,
+the SRS proves especially useful
+because it helps you learn how to read words written in kanji
+and ensures that you don't forget kanji readings.
+It is particularly helpul when dealing with rare kanji.</p>
+<p>Personally,
+I have observed that the majority of my failed Anki reviews
+stem from forgotten kanji readings.
+I may recall the meaning of a word, but struggle to recall its pronunciation.
+Therefore, if your target language does not utilize kanji or hanzi characters,
+it is totally fine to omit the use of Anki.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/do-i-have-to-use-an-srs.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/do-i-have-to-use-an-srs.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Sat, 29 Jul 2023 02:38:41 +0300</pubDate>
+</item>
+<item>
+<title>Can I speak early?</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>Generally,
+<a href="whats-ajatt.html">AJATT</a> does not recommend speaking (or outputting) early.
+Typically,
+this means avoiding speaking in the first 1 to 2 years,
+or until your comprehension reaches fluency.
+AJATT's core philosophy is based on learning to
+understand your target language before you start outputting.
+We have found that waiting until you have accumulated
+<a href="mass-immersion.html">10,000 hours</a>
+of input yields better results when you start learning to speak.</p>
+<p>Speaking early is <a href="bad-habits-due-to-being-forced-to-prematurely-output.html">associated with long-term negative effects</a>
+which require time and deliberate practice to fix later.</p>
+<p>We highly recommend immersing yourself in the language for 10,000 hours
+and then starting practicing speaking by imitating native speakers,
+a technique known as &quot;shadowing.&quot;</p>
+<p>Alternative approaches,
+such as trying to find native speakers to talk to,
+often result in frustration.
+When you're still a beginner,
+you will be making a ton of mistakes.
+Native speakers are not motivated to notice, point out, and correct your mistakes.
+They just want to speak English with you.
+Natives will be annoyed by you and will try to speak to you as if you were a baby,
+using very simple language.
+You won't learn much from such conversations.
+That's why your time during the beginner stage is better spent immersing.</p>
+<p>Furthermore,
+for Japanese learners
+it is extremely challenging
+to find someone who understands the pitch accent theory,
+knows pitch accent rules,
+and can assist in developing a native-like accent.
+Self-study has proven to be the most effective method for achieving this objective.</p>
+<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/can-i-speak-early.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/can-i-speak-early.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Tue, 25 Jul 2023 15:44:07 +0300</pubDate>
+</item>
+<item>
+<title>Timeboxing</title>
+<author>Tatsumoto</author>
+<description><![CDATA[<p>Managing time effectively is crucial to accomplish tasks and maintain productivity.
+Timeboxing is a popular technique that helps people organize their time.
+In this article,
+we will explore the concept of timeboxing,
+how timeboxing can help with language learning,
+and discuss timeboxing software that AJATTers use.</p>
+<hr>]]></description>
+<link>https://tatsumoto-ren.github.io/blog/timeboxing.html</link>
+<guid>https://tatsumoto-ren.github.io/blog/timeboxing.html</guid>
+<dc:creator>Tatsumoto</dc:creator>
+<pubDate>Thu, 13 Jul 2023 04:13:40 +0300</pubDate>
+</item>
 <item>
 <title>If you're almost done with Tango N5, is it worth switching to the KanjiTransition deck?</title>
 <author>Tatsumoto</author>
@@ -144,7 +275,8 @@ I'm going to present you the easiest way, and you can read about other ways on A
 <title>I have a deck I haven't reviewed for a whole year. Should I reset it?</title>
 <author>Tatsumoto</author>
 <description><![CDATA[<p>It can be tempting to reset a deck that hasn't been reviewed in a while,
-but I do not recommend doing so for the cards have a review history.
+but I do not recommend doing so
+if a large number of cards have graduated and have a review history.
 Despite feeling like you may have forgotten everything,
 you likely remember more than you realize.
 Instead, I suggest reviewing the overdue cards.</p>
@@ -169,250 +301,6 @@ you avoid overwhelming yourself with hundreds or thousands of cards at once.</p>
 <guid>https://tatsumoto-ren.github.io/blog/should-i-reset-a-deck-i-havent-reviewed.html</guid>
 <dc:creator>Tatsumoto</dc:creator>
 <pubDate>Sun, 07 May 2023 17:21:10 +0300</pubDate>
-</item>
-<item>
-<title>How do you recommend starting on listening practice?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>There's really not that much to it.</p>
-<p>The way I learned to understand spoken Japanese is by watching raw anime.
-If you're a fan of anime, you'll find this method enjoyable and engaging.
-Anime is easy to understand
-because it is voiced by professional voice actors who typically speak clearly
-and use the standard Japanese dialect.
-This ensures that you're learning from high-quality,
-accurate sources of spoken Japanese.
-Moreover,
-anime covers a wide range of vocabulary,
-including both formal and informal expressions.</p>
-<p>But how do you make the most out of this practice? Here are some tips:</p>
-<ol>
-<li>Watch an episode first without subtitles or translations.
-This helps you focus on the sounds of the language rather than relying on written cues.</li>
-<li>After watching, read the Japanese subtitles and learn any unknown words.
-This expands your vocabulary
-and helps you notice the words when you hear them again later.</li>
-<li>Extract the audio track and listen to it multiple times using <a href="passive-listening.html#mpd">mpd</a>.
-You will hear and notice the words you've learned recently.
-Repetition helps train your ear to distinguish individual sounds and patterns.</li>
-</ol>
-<p>Mastering a language takes time and effort.
-But as you continue to practice,
-your listening abilities will improve and you'll be able to easily
-comprehend more and more of what you hear.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/how-do-you-recommend-starting-on-listening-practice.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/how-do-you-recommend-starting-on-listening-practice.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Sat, 29 Apr 2023 16:54:05 +0300</pubDate>
-</item>
-<item>
-<title>I immerse with English and Japanese subs on at the same time. Is this a bad idea?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>If you watch with English and Japanese subtitles on the screen at the same time,
-consider having both subtitle tracks hidden most of the time.
-In <code>mpv</code> you can press <kbd>v</kbd> to toggle subtitle visibility.
-When you feel like you didn't understand something,
-turn the subs on temporarily.
-Mpvacious has <a href="https://github.com/Ajatt-Tools/mpvacious#secondary-subtitles">key bindings</a>
-that let you toggle secondary subtitles as well,
-or you can have them appear on mouse hover.</p>
-<p>You can approach this question at 2 levels.</p>
-<ol>
-<li><p><strong>Training your listening ability.</strong></p>
-<p>Displaying both Japanese and English subtitles simultaneously
-would occupy a significant portion of the screen,
-making the subtitles difficult to ignore.
-If you have them visible all the time,
-it is likely that you will end up reading them.
-It may happen unconsciously, automatically, accidentally.
-Even if you catch an outline of a sentence in the corner of your eye,
-it could give you a hint and disrupt your listening practice.
-If you're genuinely committed to improving your listening skills,
-consider <strong>hiding all subtitles</strong>.
-This is the only way to ensure that you're not cheating.</p>
-</li>
-<li><p><strong>Increasing your overall comprehension.</strong>
-To ensure effective learning,
-it's crucial that you don't read English subtitles.
-If you do,
-and if you don't pay attention to the Japanese subtitles,
-<a href="should-i-watch-anime-with-english-subtitles.html">your progress will be zero</a>.
-Try to understand the Japanese subs first.</p>
-<p>If you must use English subtitles,
-try to make them less accessible,
-such as requiring a button press or mouse movement to reveal them.</p>
-<p>Then consider whether English subtitles can help you,
-or if it is better to get rid of them completely.
-Prioritize understanding the Japanese subtitles first,
-and only opt for English subtitles if necessary.
-As I previously discussed in
-<a href="should-i-put-english-translations-on-bilingual-tscs.html">Should I put English translations on Bilingual TSCs</a>,
-relying on translations doesn't help in language acquisition.
-While they may help you understand a rough meaning of a sentence,
-they don't aid in understanding how ideas are expressed in Japanese,
-and how grammar works.</p>
-<p>Furthermore,
-using English subtitles carries the risk of creating false associations
-between English words and Japanese words with similar meanings.
-This can lead to biases in your Japanese comprehension.</p>
-</li>
-</ol>
-<p>In conclusion,
-it is OK to keep Japanese subtitles visible,
-but English subtitles are better kept hidden.
-Hiding both English and Japanese subtitles is good for improving your listening abilities.
-And if you hate going forth between turning subs on and off,
-consider <a href="is-it-harmful-to-always-have-tl-subtitles-on.html">watching some shows fully raw and other shows with Japanese subs always on</a>.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/en-and-ja-subs-at-the-same-time.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/en-and-ja-subs-at-the-same-time.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Mon, 24 Apr 2023 04:28:06 +0300</pubDate>
-</item>
-<item>
-<title>What's the best way to make use of an iTalki teacher?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<blockquote>
-<p>I'm beginning to utilize iTalki.
-many iTalki teachers seem open to structuring a game plan based on what each student requests.
-What would you consider to be the most effective use of iTalki
-in a way that's complementary to the AJATT philosophy?
-What would you personally look for in a teacher?</p>
-</blockquote>
-<p>I don't know much about iTalki, so I went to their website
-and was surprised to see that it doesn't work with JavaScript disabled.
-Truly a disappointment.
-I couldn't press half of the buttons on the webpage,
-all I could do is read the text on the few pages that were able to load.</p>
-<p>So apparently Italki is a platform where you pay to have lessons with language teachers.</p>
-<blockquote>
-<p>英語 のスキルが確実に向上する方法をお探しですか？
-italki には資格を持つ 英語 講師が在籍しています。
-英語 のオンライン講師のレッスンを受けて、英語 力アップを目指しましょう。</p>
-</blockquote>
-<p>In the world of language learning,
-paying for speaking practice is often compared to paying for sex.
-So you're about to do something really shameful there.
-I do not think that iTalki can be utilized in a way that aligns with the AJATT philosophy.
-AJATT has always been about learning by yourself,
-and on this website I also stress it a lot.
-Ask yourself,
-would another native speaker of your native language
-pay you to have a conversation with you?
-Would you pay a native speaker of your native language to have a conversation with you?
-Probably not, right?
-The reason some people are paid to speak is that what they say is of value.
-Famous businessmen, scientists, programmers, politicians are paid to
-give talks and lectures
-because they share valuable knowledge,
-not because they speak a certain language.
-The value of a conversation lies in its content, not simply in the act of speaking a language.
-Having a meaningless conversation in another language
-with a language teacher is the antithesis of value.
-A teacher's role is to teach learners how to learn by themselves,
-and thanks to this site you already know how to learn your target language through self-study,
-so you don't need to pay anybody.</p>
-<p>If you are &quot;looking for a way to improve&quot; your target language,
-you need to understand that
-language is a tool for acquiring knowledge.
-Speaking is merely a byproduct and a result of acquiring knowledge, not the end goal.
-Output ability emerges as a result of listening, watching and reading for thousands of hours.
-It is through input that learners acquire the necessary linguistic structures,
-vocabulary, grammar,
-and cultural context to communicate effectively in the target language.
-Therefore, it is crucial to prioritize comprehension over production, input over output.
-The best way to improve is by <a href="whats-immersion.html">immersing</a> in the authentic content
-made for native speakers of the TL.
-Immersion plus <a href="spaced-repetition.html">SRS</a> leads to comprehension ability.
-Immersion plus comprehension leads to speaking ability.
-Then, speaking ability plus speaking practice leads to speaking mastery.</p>
-<p>Before you concern yourself with improving your speaking skills,
-you need to make sure that you have mastered understanding your TL.
-To be able to speak a foreign language well, you need to be able to hear well.
-Pronunciation comes from listening.
-If you can't hear it, you can't say it.
-If you are able to understand everything you hear, you will be able to speak well.
-In addition, a good grasp of the language's phonetics and pitch accent is vital.
-Lastly,
-research the topic you want to discuss and learn how native speakers converse about it.
-You can't talk about something if you don't know how and what to say.
-For example, you learn about history of Japan, and then you can talk about it.
-Or you learn about Japanese food, and then you can talk about it.
-To learn how to talk about something
-you need to read and listen to native speakers of your target language.</p>
-<p>Speaking practice can be counterproductive.
-It is not uncommon for learners to <a href="early-output-or-reading-ahead-of-listening.html">start speaking early</a>
-before fully developing their listening abilities
-and intuitive understanding of language structures.
-This can lead to the reinforcement of incorrect pronunciation and grammar,
-and can actually hinder language learning progress.</p>
-<p>Let's say you have immersed for <a href="mass-immersion.html">10,000 hours</a>,
-and now you are ready to start improving your speaking.
-Getting better at speaking requires speaking practice.
-Speaking practice is mainly a tool for improving pronunciation.
-First,
-determine if dedicating time to this activity aligns with your objectives.
-After 10,000 hours of immersion,
-most individuals can speak proficiently
-and can improve naturally by simply talking with native speakers on the topics of interest.
-If the answer is yes,
-AJATT recommends practicing by imitating native speakers.
-This is done through shadowing exercises.</p>
-<p>Shadowing is a language learning technique where you listen to a native speaker
-and repeat what they say, trying to match their speed, rhythm, and intonation
-as closely as possible.
-Here's how you can go about shadowing:</p>
-<ol>
-<li>Choose an audio or video recording of a native speaker speaking your target language.
-It could be a <a href="immersion-with-youtube.html">YouTube</a> video or an audiobook.
-Obtain the text version, the transcript of the recording as well.</li>
-<li>Listen to the recording.
-Start shadowing by repeating what the speaker says,
-trying to match their speed, rhythm, intonation and pitch accent as closely as possible.</li>
-<li>Record yourself.
-Pay attention to your own pronunciation and try to correct any mistakes you notice.</li>
-</ol>
-<p>You can repeat what the native speaker says after they say it or simultaneously, at the same time.
-There appears to be no consensus on which way is better.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/whats-the-best-way-to-make-use-of-an-italki-teacher.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/whats-the-best-way-to-make-use-of-an-italki-teacher.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Sun, 16 Apr 2023 02:33:03 +0300</pubDate>
-</item>
-<item>
-<title>How much of my immersion should I understand?</title>
-<author>Tatsumoto</author>
-<description><![CDATA[<p>The answer is simple: you should aim to understand 100% of your immersion.
-Everything.
-One hundred percent.
-Every time you come across an unfamiliar word or phrase,
-it is a problem, and it has to be fixed.
-Don't hesitate to take action, you've got thousands of words to acquire.
-The ultimate goal is to reach a point where each unknown word is so rare
-that it stands out, and you just can't ignore it.</p>
-<p>When starting to learn a new language,
-it's normal to understand nothing at first.
-The first step is to train your ears to hear the sounds of the language, which can take time.
-The next step is to immerse for thousands of hours and learn lots of grammar and vocabulary,
-required to reach fluency.
-The more time you invest, the more your language skills will improve.</p>
-<p>To tackle the initial challenge of not understanding,
-it's advisable to prioritize <a href="basic-vocabulary.html">basic vocabulary</a> in the beginning.
-By spending your first month or two on learning the most common words of the language
-you can quickly improve your comprehension and
-start to understand everyday conversations quite well.
-You can then continue learning by mining example sentences from your input,
-starting with slice of life shows
-and eventually moving towards more sophisticated media.</p>
-<p><em>Frontloading</em> the most frequently used words is perhaps one of the most significant techniques
-in mastering the target language,
-which I personally found very helpful in the beginning.</p>
-<p>Tags: <a href="tag_faq.html">faq</a></p>]]></description>
-<link>https://tatsumoto-ren.github.io/blog/how-much-of-my-immersion-should-i-understand.html</link>
-<guid>https://tatsumoto-ren.github.io/blog/how-much-of-my-immersion-should-i-understand.html</guid>
-<dc:creator>Tatsumoto</dc:creator>
-<pubDate>Fri, 14 Apr 2023 18:37:32 +0300</pubDate>
 </item>
 </channel>
 </rss>

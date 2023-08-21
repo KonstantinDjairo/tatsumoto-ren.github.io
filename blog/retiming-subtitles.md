@@ -4,27 +4,20 @@ date: 1634149975
 tags: [guide, mpv]
 ---
 
-Japanese subtitles can be found in
-[many places](resources.html#japanese-subtitles).
-Often after downloading an archive with subtitles for your show
+Reading target language subtitles
+is a great way to improve at your target language
+and grow your vocabulary when watching movies and TV-shows.
+Often,
+after downloading an archive with subtitles for a show
 you find that the subtitles are not in sync with the video files you have on your computer.
 In this article let's discuss what you can do to sync them.
 
 ****
 
-There are two methods of retiming subtitles available today:
+## Obtaining subtitles
 
-1) Manually adjusting timings using the retimer included with
-[subs2srs](our-immersion-learning-toolset.html#subs2srs)
-or by adjusting the subtitle delay in mpv.
-2) Using an automatic tool,
-[ffsubsync](https://github.com/smacke/ffsubsync)
-or
-[alass](https://github.com/kaegi/alass).
-
-FFsubsync and alass fail to retime subtitle files with lots of commercial breaks
-unless the same breaks are present in the video file, which is almost never the case.
-Otherwise, the automatic tools are almost always faster than using a manual retimer.
+Japanese subtitles can be found in
+[Resources](resources.html#japanese-subtitles).
 
 ## Loading subtitles
 
@@ -127,6 +120,22 @@ for sub in ./*.ass; do
 done
 ```
 
+## Retiming methods
+
+There are two methods of retiming subtitles available today:
+
+1) Manually adjusting timings using the retimer included with
+   [subs2srs](our-immersion-learning-toolset.html#subs2srs)
+   or by adjusting the subtitle delay in mpv.
+2) Using an automatic tool,
+   [ffsubsync](https://github.com/smacke/ffsubsync)
+   or
+   [alass](https://github.com/kaegi/alass).
+
+FFsubsync and alass fail to retime subtitle files with lots of commercial breaks
+unless the same breaks are present in the video file, which is almost never the case.
+Otherwise, the automatic tools are almost always faster than using a manual retimer.
+
 ## Manual retiming
 
 ### In mpv
@@ -153,7 +162,7 @@ by pressing `z`, `Z`, `x` and `X`.
 
 ### With subs2srs
 
-Subs2srs ships with a
+[Subs2srs](our-immersion-learning-toolset.html#subs2srs) ships with a
 [sub retimer tool](http://subs2srs.sourceforge.net/SubsReTimer/usage.html).
 After you install subs2srs, you can find the retimer by its desktop entry.
 This tool is helpful when you have a reference subtitle file that is already synced.
@@ -175,11 +184,11 @@ When synchronizing,
 you can use a correctly synchronized subtitle file or a video
 as a reference for synchronization.
 
-To install FFsubsync, first install ffmpeg, then the program itself.
+To install FFsubsync, first install `ffmpeg`, `pipx`, then the program itself.
 
 ```
-$ sudo pacman -S --needed ffmpeg
-$ pip3 install --upgrade ffsubsync
+$ sudo pacman -S --needed ffmpeg python-pipx
+$ pipx install ffsubsync
 ```
 
 I recommend retiming subtitles in bulk, using a bash-loop.
@@ -228,11 +237,11 @@ Watch
 [this video](https://redirect.invidious.io/watch?v=w1vwnUiF6Bc)
 to see how it works and how to set it up.
 
-To use autosubsync-mpv first have `mpv`, `ffmpeg` and `ffsubsync` installed.
+To use autosubsync-mpv first ensure that `mpv`, `ffmpeg`, `pipx` and `ffsubsync` are installed.
 
 ```
-$ sudo pacman -S --needed mpv ffmpeg
-$ pip3 install --upgrade ffsubsync
+$ sudo pacman -S --needed mpv ffmpeg python-pipx
+$ pipx install ffsubsync
 ```
 
 Download and install the mpv add-on.

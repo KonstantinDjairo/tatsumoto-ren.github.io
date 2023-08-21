@@ -33,7 +33,7 @@ to help you get things up and running as quickly as possible.
 There are two main ways to install Anki.
 
 * Using your distribution's package manager ([pacman](https://wiki.archlinux.org/title/Pacman), apt, dnf, etc.).
-* Using [pip](https://pip.pypa.io/en/stable/), a software installer for Python programs.
+* Using [pipx](https://pypa.github.io/pipx/), a software installer for Python programs.
 * By downloading a release from the official website.
 
 The first method guarantees that you'll have the right dependencies installed,
@@ -44,7 +44,8 @@ The second method guarantees that you get the latest version,
 but you need to make sure you have all the dependencies installed.
 And the third method is for operating systems that don't have package managers.
 
-Please don't install Anki via **FlatPak**, Snap packages or other non-native package managers.
+Please don't install Anki via [FlatPak](https://flatkill.org/),
+Snap packages or other non-native package managers.
 People have been reporting various problems connected to these installation methods.
 
 If you are running Wayland, please revert to [Xorg](https://wiki.archlinux.org/title/xorg)
@@ -72,18 +73,18 @@ to avoid possible issues.
   outdated versions of Anki work poorly with most add-ons, especially new ones.
   Use a version released at least 6 months ago or newer.
 
-### Using pip
+### Using pipx
 
 The latest version can be installed with the [aqt](https://pypi.org/project/aqt/) package.
 
 ```
-$ pip install --upgrade aqt
+$ pipx install aqt
 ```
 
 <details>
 <summary>Notes</summary>
 
-* `pip` places executable files in `~/.local/bin/` by default.
+* `pipx` places executable files in `~/.local/bin/` by default.
   Don't forget to add this directory to the
   [PATH](how-do-i-add-a-directory-to-the-path.html).
 * To run Anki, type `anki` in the terminal and press Enter.
@@ -99,7 +100,7 @@ $ pip install --upgrade aqt
   add `export QT_PLUGIN_PATH=/usr/lib/qt/plugins`
   to the list of [environment variables](how-do-i-change-an-environment-variable.html).
 * Anki depends on [mpv](https://mpv.io/) to play audio.
-  You have to install it separately.
+  You have to install it separately with `pacman` or another package manager.
 * You may have to install [PyQt5](https://pypi.org/project/PyQt5/) as well.
 * Anki `2.1.50` and later additionally requires
   installing
@@ -109,11 +110,11 @@ $ pip install --upgrade aqt
   from PyPI.
 * `PyQt5` and `PyQtWebEngine` can be also obtained from the official Arch Linux repositories.
 
-You can tell `pip` to install a specific version.
+You can tell `pipx` to install a specific version.
 This is handy when the latest version malfunctions.
 
 ```
-pip3 install --upgrade --pre "aqt==2.1.49"
+pipx install "aqt==2.1.60"
 ```
 
 There are two versions,
@@ -122,8 +123,8 @@ depending on which GUI toolkit is used,
 You can change the toolkit like this:
 
 ```
-$ pip install --upgrade 'aqt[qt5]'
-$ pip install --upgrade 'aqt[qt6]'
+$ pipx install 'aqt[qt5]'
+$ pipx install 'aqt[qt6]'
 ```
 
 Normally, this is not needed.
@@ -207,11 +208,12 @@ You can access preferences by going to `Tools > Preferences…` on Anki’s main
   I recommend keeping the value close to the default of 20 minutes.
   Mine is `35` minutes.
   When you finish your daily reviews and new cards,
-  Anki will start ignoring intervals of cards in the learning queue `less` than
-  this value and showing the cards to you right away.
+  Anki will start ignoring intervals of cards in the learning queue
+  **less** than this value
+  and will start showing the cards to you right away.
   This is good for cards with small intervals because it lets you finish your reps
   without breaking the flow and waiting for your cards to become ready to be reviewed.
-  But if you set the `Learn ahead limit` too high
+  But if you set the `Learn ahead limit` too high,
   cards with longer learning steps will be shown to you too early.
   Keeping the value on the lower side enforces the wait time of your steps.
   If you set this to `0`, Anki will always wait the full delay, so it's not optimal either.
@@ -223,7 +225,7 @@ You can access preferences by going to `Tools > Preferences…` on Anki’s main
   Mixing is probably the worst way and will confuse you when
   a new card pops up after a streak of mature cards.
 
-  **Note:** This option has been moved in newer versions.
+  **Note:** This option has been [moved](#display-order) in newer versions.
 * **Anki 2021 scheduler.**
   This is a
   [new scheduler](https://faqs.ankiweb.net/the-2021-scheduler.html)
@@ -594,7 +596,7 @@ or
 [~/.zshrc](https://wiki.archlinux.org/title/Zsh#Configure_Zsh).
 
 Install a specific version.
-For example, run `anki_test_install 45` to install Anki `2.1.45`.
+For example, run `anki_test_install 2.1.45` to install Anki `2.1.45`.
 
 ```
 anki_test_install() {
@@ -604,7 +606,7 @@ anki_test_install() {
 		mkdir -p -- "$dir" && cd -- "$dir" || exit
 		python -m venv --system-site-packages pyenv
 		./pyenv/bin/pip3 install --upgrade pip
-		./pyenv/bin/pip3 install --upgrade --pre "aqt==2.1.$version"
+		./pyenv/bin/pip3 install --upgrade --pre "aqt==$version"
 	)
 }
 ```
@@ -618,7 +620,7 @@ anki_test_run() {
 	if [[ $* ]]; then
 		local -r choice=$*
 	else
-		local -r choice=$(ls -1 "$dir" | dmenu)
+		local -r choice=$(find "$dir" -mindepth 1 -maxdepth 1 -type d -printf '%f\n' | dmenu)
 	fi
 	if [[ -n $choice ]]; then
 		(cd -- "$dir/$choice" && ./pyenv/bin/anki)

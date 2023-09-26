@@ -31,6 +31,7 @@ Add the following settings to `~/.config/mpv/mpv.conf`.
 
 ```
 sub-auto=fuzzy
+subs-with-matching-audio=yes
 sub-file-paths=ass:srt:sub:subs:subtitles:subs.en:subs.ja
 ```
 
@@ -190,6 +191,9 @@ To install FFsubsync, first install `ffmpeg`, `pipx`, then the program itself.
 $ sudo pacman -S --needed ffmpeg python-pipx
 $ pipx install ffsubsync
 ```
+
+Read [Usage](https://github.com/smacke/ffsubsync#usage) on GitHub
+to understand how to use the program to retime individual files.
 
 I recommend retiming subtitles in bulk, using a bash-loop.
 For this example let's say the videos are stored in the current directory,

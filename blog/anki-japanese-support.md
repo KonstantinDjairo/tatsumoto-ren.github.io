@@ -192,6 +192,45 @@ Each task can be triggered by one of the 4 callers:
 When editing a profile, you can select what callers the profile should "answer" to.
 For example, you can generate furigana when focus is lost but not when a note is added.
 
+## Pitch accent style
+
+Pitch accent style can be configured in "AJT" > "Japanese Options" > "Pitch Accent" > "Style".
+The following styles are built-in:
+
+1) `javdejong`.
+   The style used in the original Japanese Pitch Accent Anki add-on by `javdejong`.
+
+   * Overline: indicates "High" pitch.
+   * Downfall arrow: indictates an end of moras with "High" accent.
+   * Red circle mark: nasal pronunciation、e.g. `げ` would be a nasal `け`.
+   * Blue color: devoiced. Barely pronounced at all.
+2) `u-biq`.
+   The style used to show pitch on the [u-biq website](https://accent.u-biq.org/).
+
+   * Overline: indicates "High" pitch.
+   * Underline: indicates "Low" pitch.
+   * Red circle mark: nasal pronunciation.
+   * Blue color: devoiced.
+3) `kanjium`.
+   Style which is part of the [kanjium project](https://github.com/mifunetoshiro/kanjium).
+
+   * Overline: indicates "High" pitch.
+   * ⌝: indictates an end of moras with "High" accent.
+   * Red circle mark: nasal pronunciation.
+   * Blue color: devoiced.
+
+The last option, `None` allows you to configure your own style
+using CSS classes in your Note Type's Styling section
+("Anki" > "Tools" > "Manage Note Types" > "Cards" > "Styling").
+You can define CSS rules for the following classes:
+
+* `.low`. Low accent, e.g., an underline.
+* `.low_rise`. Low accent, then rise.
+* `.high`. High accent, e.g., an overline.
+* `.high_drop`. High accent, then drop.
+* `.nasal`. Nasal sound, e.g., shown in a different color.
+* `.devoiced`. Devoiced sound.
+
 ## Audio files
 
 AJT Japanese can add audio files from accent dictionaries to Anki cards.

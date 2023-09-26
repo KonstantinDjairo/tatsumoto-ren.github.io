@@ -5,10 +5,10 @@ tags: ['guide']
 filename: anki-japanese-support
 ---
 
-[Anki](setting-up-anki.html)
-can be used
-to learn a variety of different subjects,
-including languages.
+O [Anki](setting-up-anki.html)
+pode ser usado
+para aprender uma grande variedade de assuntos,
+incluindo idiomas.
 What makes Anki such a fantastic tool for Japanese learners is the vast array of plugins or "add-ons"
 that extend its functionality.
 One of the most useful add-ons for learning Japanese is

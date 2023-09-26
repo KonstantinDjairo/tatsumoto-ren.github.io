@@ -1,5 +1,5 @@
 ---
-title: Japanese support for Anki
+title: Suporte à japônes no Anki
 date: 1681292213
 tags: ['guide']
 filename: anki-japanese-support
@@ -9,18 +9,18 @@ O [Anki](setting-up-anki.html)
 pode ser usado
 para aprender uma grande variedade de assuntos,
 incluindo idiomas.
-What makes Anki such a fantastic tool for Japanese learners is the vast array of plugins or "add-ons"
-that extend its functionality.
-One of the most useful add-ons for learning Japanese is
+O que torna o Anki uma ferramenta tão fantástica para o aprendizado de japônes é a quantidade de "add-ons"
+que extendem suas funcionalidades.
+Um dos add-ons mais úteis para o aprendizado de japônes é o
 [AJT Japanese](https://ankiweb.net/shared/info/1344485230).
-Its main features include
-adding furigana,
-adding pitch accent information,
-and adding pronunciation audio files to Anki cards.
+Suas principais funções incluem:
+Adicionar furigana,
+Adicionar informação acerca de pitch accent,
+E adicionar pronúncia aos cards no Anki.
 
 ****
 
-## Installation
+## Instalação
 
 The installation process is similar to other Anki plugins and can be accomplished in three steps:
 
